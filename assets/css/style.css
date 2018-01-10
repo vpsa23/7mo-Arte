@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #000;
+}
+
+/*PRIMERA SECCION, LOG IN*/
+
+  #login{
+    background-image: url(../img/fondo-login.png);
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .row1{
+    width: 100%;
+  }
+
+  #cuadrado{
+    background-color: rgb(167, 28, 35)  ;
+    height: 80vh;
+    width: 65vh;
+    margin-left: 105%;
+    margin-top: 15%;
+    border-radius: 15px;
+  }
+
+  #profile{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+  }
+
+  #email{
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+
+    #password{
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  #btn1, #btn2{
+    width: 30%;
+    height: 5vh;
+    margin-left: 12%;
+    margin-top: 5%;
+    border-radius: 6px;
+    background-color: #F7DC6F  ;
+    border: none;
+  }
+
+  #tickets{
+    width: 70%;
+    height: 25%;
+    margin-left: 25%;
+    margin-top: 35%;
+  }
+
+/*FIN DE LOG IN*/
+
+/*PAGINA PRINCIPAL*/
+
+/*NAV-BAR*/
+  nav{
+    background-color: rgb(167, 28, 35)  ;
+    width: 100%;
+    height: 15vh;
+    border-bottom: 1.5px dotted yellow;
+  }
+
+  #logo img{
+    width: 25%;
+    height: 20%;
+    margin-left: 85%;
+    margin-top: 4%;
+    z-index: 10;
+  }
+
+  #options{
+    margin-left: -8%;
+    margin-top: -11%;
+    font-size: 18px;
+    color: #000;
+  }
+  #options li a{
+    background-color: rgb(167, 28, 35)  ;
+    color: #F7DC6F;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+  }
+/*FIN DEL NAV-BAR*/
+
+/*SEGUNDA SECCION DE LA PAGINA PRINCIPAL*/
+  #section1{
+    background-image: url(../img/foto-principal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+  }
+
+  #image{
+    background: rgba(249,231,159,0.63);
+    background: -moz-linear-gradient(-45deg, rgba(249,231,159,0.63) 0%, rgba(249,231,159,0.63) 94%, rgba(249,231,159,0.63) 99%, rgba(249,231,159,0.45) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(249,231,159,0.63)), color-stop(94%, rgba(249,231,159,0.63)), color-stop(99%, rgba(249,231,159,0.63)), color-stop(100%, rgba(249,231,159,0.45)));
+    background: -webkit-linear-gradient(-45deg, rgba(249,231,159,0.63) 0%, rgba(249,231,159,0.63) 94%, rgba(249,231,159,0.63) 99%, rgba(249,231,159,0.45) 100%);
+    background: -o-linear-gradient(-45deg, rgba(249,231,159,0.63) 0%, rgba(249,231,159,0.63) 94%, rgba(249,231,159,0.63) 99%, rgba(249,231,159,0.45) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(249,231,159,0.63) 0%, rgba(249,231,159,0.63) 94%, rgba(249,231,159,0.63) 99%, rgba(249,231,159,0.45) 100%);
+    border-radius: 15px;
+    width: 40%;
+    height: 50vh;
+    margin-top: 5%;
+    margin-right: 25%;
+  }
+
+  #image h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(167, 28, 35)  ;
+    font-weight: 400;
+  }
+
+  #image p{
+    font-weight: 600;
+    font-family: 'Handlee', cursive;
+    font-size: 20px;
+  }
+/*FIN DE SEGUNDA SECCION DE PAGINA PRINCIPAL*/
+
+/*TERCERA SECCION DE PAGINA PRINCIPAL*/
+
+  #section2{
+    height: 90vh;
+  }
+
+  #pelis h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(167, 28, 35)  ;
+
+  }
