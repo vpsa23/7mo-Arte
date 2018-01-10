@@ -55,6 +55,7 @@ $(document).ready(function() {
   $('nav').hide();
   $('#section1').hide();
   $('#section2').hide();
+  $('#section3').hide();
 
 
 /*
@@ -65,11 +66,30 @@ $(document).ready(function() {
     $('nav').show();
     $('#section1').show();
     $('#section2').show();
+    $('#section3').show();
   })
 
 
-
 })
+
+
+/*
+* FUNCION DEL MAPA
+*/
+function initMap() {
+  var chile = {lat: -33.45, lng: -70.6667};
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 4,
+    center: chile
+ });
+        
+  var marker = new google.maps.Marker({
+    position: chile,
+    map: map
+  });
+}
+
+
 
 
 
@@ -97,7 +117,7 @@ $(document).ready(function() {
 
 /**
  * Función para Carrusel
- */
+ 
  (function(){
    $('#carousel123').carousel({ interval: 2000 });
 
@@ -119,7 +139,6 @@ $(document).ready(function() {
      }
    });
  }());
- /**
   * Fin de Función para Carrusel
   */
 

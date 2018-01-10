@@ -159,3 +159,65 @@ h1 {
     width: 100%;
     height: 70vh;
   }
+
+  /*FIN DE TERCERA SECCION DE PAGINA PRINCIPAL*/
+
+  /*CUARTA SECCION DE PAGINA PRINCIPAL*/
+  #section3{
+    background-color: rgb(167, 28, 35)  ;
+    height: 90vh;
+  }
+
+  #salas h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    margin-left: 40%;
+    font-weight: 900;
+    color: #F7DC6F  ;
+  }
+
+  #map {
+    height: 400px;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: %;
+  }
+
+  #consult h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 20%;
+    font-weight: 900;
+    color: #F7DC6F  ;
+  }
+
+  #consult select{
+    width: 80%;
+    height: 6vh;
+    margin-top: 3%;
+    margin-left: 20%;
+    background-color: rgb(167, 28, 35)  ;
+    color: #FFF;
+    border: 1.5px solid #FFF;
+  }
+
+  #photo1{
+    margin-top: 150%;
+    margin-left: -750%;
+  }
+
+  #photo2{
+    margin-left: -40%;
+    margin-top: 340%;
+  }
+
+  #ruta{
+    margin-top: 5%;
+    margin-left: 45%;
+    font-weight: 700;
+    background-color: #F7DC6F  ;
+    text-transform: uppercase;
+  }
+
+  /*FINAL CUARTA SECCION DE PAGINA PRINCIPAL*/

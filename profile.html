@@ -133,6 +133,41 @@
   </a>
         </div>
 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--CUARTA SECCION DE PAGINA PRINCIPAL-->
+  <section id="section3">
+    <div class="container container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="salas">
+          <h1>Salas de Cine</h1>
+        </div>
+
+        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+          <div id="map"></div>
+        </div>
+
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" id="consult">
+          <h4>Consulta las Salas más cercanas</h4>
+
+        <select class="form-control form-control-sm">
+          <option>Ingrese su punto de partida</option>
+        </select>
+         <select class="form-control form-control-sm">
+          <option>Ingrese su destino</option>
+        </select>
+        <button type="button" class="btn btn-light" id="ruta">¡Trazar Ruta!</button>
+      </div>
+
+        <div class="col-xs1 col-sm-1 col-md-1 col-lg-1">
+          <img src="assets/img/shape.png" alt="" id="photo1">
+          <img src="assets/img/shape2.png" alt="" id="photo2">
+        </div>
+
+
       </div>
     </div>
   </section>
@@ -165,6 +200,7 @@
   <script src="assets/js/jquery-3.2.1.min.js" type="application/javascript"></script>
   <script src="assets/js/app.js" type="application/javascript"></script>
   <script src="assets/js/bootstrap.min.js" type="application/javascript"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCukrum0D1B3QYwDbtjgEhRRVBDOsaeKj0&callback=initMap"></script>
 
 
 </body>
